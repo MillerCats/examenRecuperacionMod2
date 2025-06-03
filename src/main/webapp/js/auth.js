@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log(response);
             setCookie("token", response.token, 7);
             alert(response.result);
-            window.location.href = "principal.html";
+            window.location.href = "tables.html";
         } else {
             alert("Credenciales incorrectas");
         }
